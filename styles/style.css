@@ -1,0 +1,110 @@
+
+:root {
+    --cor-primaria: #2b2a2a;
+    --cor-secundaria: #E9F8F9;
+    --cor-terciaria: #fff7fc;
+    --cor-quaternaria: #e92858;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria); 
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:4% 15% ;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+.apresentacao-conteudo-titulo {
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+.apresentacao-conteudo-texto { 
+    font-size: 26px;
+}
+.titulo-destaque {
+    color: var(--cor-quaternaria)
+}
+.apresentacao-links {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao-links-subtitulo{
+    font-size: 30px;
+}
+.apresentacao-links-link{
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    border: 3px solid var(--cor-quaternaria);   
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 27px;
+    padding: 21.5px 0;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+.apresentacao-links-link:hover{
+    background-color: rgb(68, 66, 66);
+    font-size: 26px;
+    border: 3px solid var(--cor-terciaria);
+    transition: 0.4s;
+}
+.son {
+    border-radius: 20px;
+    width: 430px;
+    border: 3px solid var(--cor-quaternaria);
+    margin-left:  11%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+.rodape {
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--cor-quaternaria);
+}
+.cabecalho{
+    padding: 3% 0 1% 28%;
+    margin-top:1%;
+    margin-bottom: 1.3%;
+}
+.cabecalho-menu{
+    display: flex;
+    gap:150px;
+    font-size: 30px;
+    width: 70%;
+}
+.cabecalho-menu-link{
+    color: var(--cor-quaternaria);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+}   
+ 
+.cabecalho-menu-link:hover{
+    color: var(--cor-secundaria);
+    transition: 0.3s;
+}
